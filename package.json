@@ -1,0 +1,24 @@
+{
+  "name": "aura-expression",
+  "displayName": "aura-expression",
+  "description": "aura expression syntax",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "language": "html",
+        "scopeName": "source.cmp",
+        "path": "./syntaxes/html.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
