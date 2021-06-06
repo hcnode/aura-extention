@@ -1,6 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "html",
+  "fileTypes": [
+    "cmp"
+  ],
+  "name": "aura",
   "patterns": [
     {
       "include": "#aura-expression"
@@ -2723,5 +2726,5 @@
       ]
     }
   },
-  "scopeName": "source.cmp"
+  "scopeName": "source.aura"
 }

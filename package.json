@@ -10,10 +10,22 @@
     "Programming Languages"
   ],
   "contributes": {
+    "configuration":{
+      "enable": true
+    },
+    "languages": [
+			{
+				"id": "aura",
+				"extensions": [
+					".cmp"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
     "grammars": [
       {
-        "language": "html",
-        "scopeName": "source.cmp",
+        "language": "aura",
+        "scopeName": "source.aura",
         "path": "./syntaxes/html.tmLanguage.json"
       }
     ]
